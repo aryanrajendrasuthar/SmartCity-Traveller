@@ -2,6 +2,9 @@
 node_modules/
 frontend/node_modules/
 
+# Maven Wrapper jar (downloaded on first run)
+backend/.mvn/wrapper/maven-wrapper.jar
+
 # Build output
 frontend/dist/
 backend/target/
