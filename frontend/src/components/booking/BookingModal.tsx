@@ -222,7 +222,7 @@ export default function BookingModal({ listing, onClose }: Props) {
             )}
 
             {step === 'payment' && booking && (
-              <Elements stripe={stripePromise} options={{ clientSecret: booking.clientSecret }}>
+              <Elements stripe={stripePromise}>
                 <CheckoutForm
                   listing={listing}
                   startDate={startDate}

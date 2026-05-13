@@ -32,7 +32,7 @@ export default function RegisterPage() {
   }
 
   const handleGoogleLogin = () => {
-    window.location.href = '/api/oauth2/authorization/google'
+    window.location.href = '/oauth2/authorization/google'
   }
 
   return (
